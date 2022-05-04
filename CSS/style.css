@@ -1,0 +1,272 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+* *::before *::after {
+    box-sizing: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(fonts/Gilroy-Bold.woff);
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+}
+    
+    @font-face {
+        font-family: 'Gilroy';
+        src: local('Gilroy'), url('fonts/Gilroy-Bold.woff2') format('woff2');
+        font-style: italic;
+        font-weight: normal;
+        font-display: swap;
+    }
+
+img {
+    max-width: 100%;
+}
+
+body {
+    min-width: 1200px;
+    font-family: 'Gilroy', sans-serif;
+}
+
+p {
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    width: 950px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.section_title {
+    margin: 0;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.header_nav_ul {
+    margin-top: 22px;
+    justify-content: space-between;
+    border-bottom: 1px solid #828282;
+    padding-bottom: 32px;
+    margin-bottom: 32px;
+}
+
+.nav_links {
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    transition: 350ms;
+}
+
+.nav_links:hover {
+    color: black;
+}
+
+.nav_links:focus {
+    border-bottom: 1px solid black;
+    color: black;
+}
+
+.nav_links:active {
+    color: rgb(183, 183, 183);
+}
+
+/* ХОМе */
+
+.home_info {
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 50px;
+}
+
+.sergey_foto {
+    height: 500px;
+    width: 950px;
+    object-fit: cover;
+    object-position: center 50%;  
+    margin-bottom: 105px;
+}
+
+/* Обо мне */
+
+.about_me {
+    background-color: #F6F6F6;
+    padding: 105px 0;
+    min-width: 100%;
+}
+
+.about_me_ul {
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 22px;
+    color: #070707;
+}
+
+.about_me_discr {
+    margin: 15px 0;
+}
+
+/* Навыки */
+
+.title__skills {
+    margin-top: 91px;
+    margin-bottom: 70px;
+}
+
+.title_discr_skills {
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.skills_programms {
+    justify-content: space-between;
+}
+
+.programm {
+    width: 170px;
+    margin-bottom: 111px;
+}
+
+.programm_img {
+    margin-bottom: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 400ms;
+}
+
+.programm_img:hover {
+    transform: scale(1.3);
+}
+
+.programm_discr {
+    text-align: center;
+    width: 100px;
+    font-size: 17px;
+    line-height: 17px;
+    color: #828282;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    height: 30px;  
+}
+
+.reting_stars_block {
+    justify-content: space-between;
+}
+
+/* Портфоило */
+
+.portfolio {
+    padding: 111px 0;
+    min-width: 100%;
+    background-color: #F6F6F6;
+}
+
+.section_title_portfolio {
+    margin-bottom: 47px;
+}
+
+.bloc_portfollio {
+    margin: 0 auto;
+    max-width: 950px;
+}
+
+/* Контакты */
+
+.social {
+    padding-top: 115px;
+    padding-bottom: 70px;
+
+}
+
+.section_title_contacts {
+    margin-bottom: 20px;
+}
+
+.title_descr_contacts {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 280px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.link_mailto {
+    text-align: center;
+    margin-bottom: 90px;
+    transition: 300ms;
+}
+
+.link_mail {
+    text-decoration: none;
+    width: 180px;
+    color: white;
+    text-align: center;
+    padding: 13px 30px;
+    border-radius: 25px;
+    background-color: #070707;
+    transition: 400ms;
+}
+
+.link_mail:hover {
+    transform: scale(0.9);
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+}
+
+.link_mailto:active {
+    transform: scale(0.9);
+}
+
+.contacts_social {
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    justify-content: space-between;
+}
+
+.socila_links_img {
+    width: 40px;
+    height: 40px;
+    transition: 400ms;
+}
+
+.socila_links_img:hover {
+    transform: scale(1.35);
+}
+
+.socila_links_img:active {
+    transform: scale(0.9);
+}
+
+.text {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+}
