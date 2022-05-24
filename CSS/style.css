@@ -97,7 +97,8 @@ p {
 .home_info {
     justify-content: space-between;
     align-items: flex-end;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    align-items: center;
 }
 
 .sergey_foto {
