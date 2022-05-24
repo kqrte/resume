@@ -109,6 +109,13 @@ p {
     margin-bottom: 105px;
 }
 
+
+.home_language {
+    padding-top: 40px;
+    transform: rotate(-90deg);
+    color: rgb(97, 97, 251);
+}
+
 /* Обо мне */
 
 .about_me {
